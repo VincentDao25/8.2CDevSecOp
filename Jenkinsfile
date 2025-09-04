@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node24.7.0'  // <-- match the name you set in Global Tool Configuration
+        nodejs 'nodes'  // <-- match the name you set in Global Tool Configuration
         }
     
     stages {
